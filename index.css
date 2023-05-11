@@ -69,7 +69,7 @@
     padding: 5px;
     justify-content: center;
     box-shadow: 5px 5px 60px black;
-    background-image: url('branch.png');
+    
 }
 .logo
 {   
@@ -83,18 +83,47 @@
 {
     opacity:0.6;
 }
-form
-{   width: 200px;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    left:38%;
-    top:100px;
-    
-}
+
 .log
 {
-    justify-self: center;
+  
+   box-shadow: 5px 5px 20px;
+    box-shadow: 2px 2px 20px;
+    position: relative;
+    height: 325px;
+    font-family: Comic Sans MS;
+    background-image: url('board.png');
+    background-position: 49%;
+    background-size: 600px;
+    background-repeat: no-repeat;
 }
+
+body
+{
+    background-image: url('branch.png');
+}
+.cont
+{
+   
+    width:500px;
+    height: 200px;
+    position: relative;
+    top: 150px;
+    left:35%;
+    border-radius: 6px;
+}
+input
+{
+    border:none;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin:5px;
+}
+#but
+{
+    left: 40%;
+    top:20px;
+    position: relative;
+}
+
 
