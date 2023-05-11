@@ -1,3 +1,4 @@
+
 <html>
     <head>
         <link rel="icon" href="book.ico">
@@ -34,18 +35,22 @@
     <div id="ee"><img src="ee.png" class="logo"></div>
 </div>
 <div class="log">
-    <div class="cont"><form>
-
-        Name:<input type="email">
-        Password<input type="password">
-        <input type="submit" id="but">
-    </form>
+    <div class="cont">
+        <form action="action.php">
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="pass">Last name:</label><br>
+            <input type="password" id="pass" name="pass">
+            <input type="submit" id="but">
+          </form>
 </div>
 </div>
 <div class="foot">
     <p>&copy AKM</p>
 </div>
-
+<?php
+?>
     </body>
     
 </html>
+
